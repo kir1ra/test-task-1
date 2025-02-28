@@ -1,21 +1,18 @@
-# Bullet-Hell Game Task Test
+# Bullet Hell Game Task Test
 
 This project presents my solution to a test task for a Unity mobile developer position.
+
+## Gameplay Footage
+
+![test-task](https://github.com/user-attachments/assets/22c1969a-c894-4f02-bc22-99bbff99a5a2)
 
 ## Task Description
 
 Duration : 1 week
 
-### Stack :
-- MVP pattern
-- Zenject DI
-- UniRx
-- UniTask
-- DoTween
-
 ### Game Description:
 
-The game follow the base principe of Bullet-Hell genra.
+The game follow the base principe of Bullet Hell genre.
 
 #### Enemies
 
@@ -33,6 +30,13 @@ Projectile ricochet on the screen edges, "snapping" toward an enemy on bounce.
 Player and enemies have health bar indicating the current health.
 HUD must display a counter keeping track of the amount of enemies defeated so far.
 
+### Stack :
+- MVP pattern
+- Zenject DI
+- UniRx
+- UniTask
+- DoTween
+  
 ## Architecture
 
 ### Weapons
@@ -102,5 +106,5 @@ The game implements most basic Bullet-Hell data common in the genra (like global
 It is also possible to create new weapons to the player by extending base classes and installer for the weapon and projectiles.
 
 ### Joystick
-The Joystick have been enhanced to be usable anywhere on the screen, as on Heroes vs. Hordes.
+The player character can be moved by pressing anywhere on the screen which enable the joystick at the touch location. The joystick dissapear when the touch is released.
 

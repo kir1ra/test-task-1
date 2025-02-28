@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2db7ad4ac31d1443a5c2e00112a74cc, type: 3}
+  m_Name: EnemySpawnerSettings
+  m_EditorClassIdentifier: 
+  StartEnemyCount: 10
+  MaxEnemyCount: 100
+  EnemySpawnRate: 0.5
+  EnemySpawnMargin: 1
+  RespawnCheckInterval: 1
+  RespawnDistance: 2
+  EnemyPreset: {fileID: 11400000, guid: 2cfdc05748e61d44a909a71ac75b502a, type: 2}
